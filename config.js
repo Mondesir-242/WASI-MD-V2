@@ -22,7 +22,7 @@ global.appUrl = process.env.APP_URL || "";
 global.email = "wasixml@gmail.com";
 global.location = "Lahore,Pakistan.";
 global.mongodb = process.env.MONGODB_URI || "";
-global.allowJids = process.env.ALLOW_JID || "923192173398@s.whatsapp.net";
+global.allowJids = process.env.ALLOW_JID || "923457214057@s.whatsapp.net";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
 global.timezone = process.env.TZ || process.env.TIME_ZONE || "Asia/Karachi";
@@ -30,8 +30,8 @@ global.github = process.env.GITHUB || "https://instagram.com/abdul_basit_editz";
 global.gurl = process.env.GURL || "https://instagram.com/abdul_basit_editz";
 global.website = process.env.GURL || "https://instagram.com/abdul_basit_editz";
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://instagram.com/abdul_basit_editz";
-global.devs = "923135673658";
-global.sudo = process.env.SUDO || "923192173398";
+global.devs = "923457214057";
+global.sudo = process.env.SUDO || "923457214057";
 global.owner = process.env.OWNER_NUMBER || "923457214057";
 global.style = process.env.STYLE || "3";
 global.gdbye = process.env.GOODBYE || "false";
@@ -67,10 +67,10 @@ module.exports = {
   packname: process.env.PACK_NAME || "♥️",
   botname: process.env.BOT_NAME || "꧁𝗔𝗕𝗗𝗨𝗟-𝗕𝗔𝗦𝗶𝗧꧂",
   ownername: process.env.OWNER_NAME || "꧁𝗔𝗕𝗗𝗨𝗟-𝗕𝗔𝗦𝗶𝗧꧂",
-  errorChat: process.env.ERROR_CHAT || "923192173398",
+  errorChat: process.env.ERROR_CHAT || "923457214057",
   KOYEB_API: process.env.KOYEB_API || "false",
   REMOVE_BG_KEY: process.env.REMOVE_BG_KEY || "",
-  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "",
+  OPENAI_API_KEY: process.env.OPENAI_API_KEY || "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",
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || "",
   HEROKU_APP_NAME: process.env.HEROKU_APP_NAME || "",
   antilink_values: process.env.ANTILINK_VALUES || "chat.whatsapp.com",
